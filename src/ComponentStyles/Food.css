@@ -1,0 +1,132 @@
+.fizz{
+    box-shadow: 0px 0px 10px black;
+    grid-column: span 2;
+    animation: fadeInImg3;
+    animation-duration: 3s;
+    transition-timing-function: ease-out;
+    display: grid;
+    border-radius: 12px;
+    border:none;
+    grid-template-rows: 4fr 50px;
+    cursor: pointer;
+}
+.fizz > .img{
+    grid-row: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    border-radius: 12px;
+}
+.fizz > .each{
+    grid-row: 2;
+}
+.fizz h3{
+    margin: 5px 10px;
+    padding:0;
+    font-size: 17px;
+}
+.fizz p{
+    margin: 5px 10px;
+    padding:0;
+    font-size: 15px;
+}
+@keyframes fadeInImg3{
+    from{
+        transform: scale(0.25);
+        opacity: 0;
+    } to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.buzz{
+    box-shadow: 0px 0px 10px black;
+    grid-row: span 2;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: fadeInImg4;
+    animation-duration: 3s;
+    transition-timing-function: ease-out;
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+    border-radius: 12px;
+    border:none;
+    cursor: pointer;
+}
+@keyframes fadeInImg4{
+    from{
+        transform: scale(0.25);
+        opacity: 0;
+    } to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.buzz > .img{
+    grid-row: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    border-radius: 12px;
+}
+.buzz > .each{
+    grid-row: 2;
+}
+.buzz h3{
+    margin: 5px 10px;
+    padding:0;
+    font-size: 17px;
+}
+.buzz p{
+    margin: 5px 10px;
+    padding:0;
+    font-size: 15px;
+}
+
+.even{
+    box-shadow: 0px 0px 10px black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: fadeInImg5;
+    animation-duration: 3s;
+    transition-timing-function: ease-out;
+    border-radius: 10%;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    cursor: pointer;
+}
+@keyframes fadeInImg5{
+    from{
+        transform: scale(0.25);
+        opacity: 0;
+    } to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.even > .img{
+    grid-row: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    border-radius: 12px;
+}
+.even > .each{
+    grid-row: 2;
+}
+.even h3{
+    margin: 5px 10px;
+    padding:0;
+    font-size: 17px;
+}
+.even p{
+    margin: 5px 10px;
+    padding:0;
+    font-size: 15px;
+}

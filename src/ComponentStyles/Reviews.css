@@ -1,0 +1,258 @@
+.reviews {
+    display: grid;
+    grid-template-rows: 120px 80px 250px;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.brands-logo {
+    grid-column: 1/-1;
+    background: rgb(105, 105, 105);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/4664178footer_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100px;
+    height: 60px;
+}
+
+#second-brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/602631157929194footer_1.jpg")
+}
+
+#third-brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/433761404882371footer_3.jpg")
+}
+
+#fourth-brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/23395171815735footer_2.jpg")
+}
+
+#fifth-brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/514831892075616footer_4-modified.png")
+}
+
+#sixth-brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/24110495643129footer_5.jpg")
+}
+
+#seventh-brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/721851598363545Wt00FPVsQ0C49Qytk8QC_Studio_Logo-white.png")
+}
+
+#eighth-brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/904207533871100Freehand-Logo.png")
+}
+
+#ninth-brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/65141simonlogo2.png")
+}
+
+#tenth-brand {
+    background-image: url("https://getbento.imgix.net/accounts/754065ebb71ded92579bcc019dd6afba/media/images/8149199234white.png")
+}
+
+.click-bait-image1 {
+    background-image: url("../images/click-bait-image-1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.click-bait-image1 .visible{
+    display:block;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(1, 1, 1, 0.5);
+}
+.click-bait-image1:hover{
+    box-shadow: inset 0 0 0 500px rgba(1, 1, 1, 0.3)
+}
+
+.click-bait-image1 button {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(1, 1, 1, 0.5);
+    display: none;
+}
+
+.click-bait-image1 button a {
+    text-decoration: none;
+    color: white;
+}
+.click-bait-image1 button a:hover{
+    color: lightseagreen;
+} 
+
+.click-bait-image2:hover{
+    box-shadow: inset 0 0 0 500px rgba(1, 1, 1, 0.3)
+}
+.click-bait-image2 .visible2{
+    display:block;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(1, 1, 1, 0.5);
+}
+
+.click-bait-image2 {
+    background-image: url("../images/click-bait-image-2.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.click-bait-image2 button {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(1, 1, 1, 0.5);
+    display: none;
+}
+
+.click-bait-image2 button a {
+    text-decoration: none;
+    color: white;
+}
+.click-bait-image2 button a:hover{
+    color: lightseagreen;
+} 
+
+
+.click-bait-image3 {
+    background-image: url("../images/click-bait-image-3.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.click-bait-image3 button {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(1, 1, 1, 0.5);
+    display: none;
+}
+.click-bait-image3:hover{
+    box-shadow: inset 0 0 0 500px rgba(1, 1, 1, 0.3)
+}
+.click-bait-image3 .visible3{
+    display:block;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(1, 1, 1, 0.5);
+    
+}
+.click-bait-image3 button a {
+    text-decoration: none;
+    color: white;
+}
+.click-bait-image3 button a:hover{
+    color: lightseagreen;
+} 
+
+.click-bait-image4 {
+    background-image: url("../images/click-bait-image-4.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.click-bait-image4 button {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(1, 1, 1, 0.5);
+    display: none;
+}
+.click-bait-image4 button a {
+    text-decoration: none;
+    color: white;
+}
+.click-bait-image4:hover{
+    box-shadow: inset 0 0 0 500px rgba(1, 1, 1, 0.3)
+}
+.click-bait-image4 .visible4{
+    display:block;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(1, 1, 1, 0.5);
+}
+.click-bait-image4 button a:hover{
+    color: lightseagreen;
+} 
+
+.insta-owner {
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+}
+
+.insta-info p {
+    margin: 0;
+}
+
+.insta-img {
+    width: 50px;
+    height: 50px;
+    background-image: url("https://instagram.frir1-1.fna.fbcdn.net/vp/32fb76332a4a93f4e4d8412de9f4eb83/5CA923B7/t51.2885-19/s150x150/36515357_272075616674109_1633862042513309696_n.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 1025px){
+    .brand{
+        width: 7%;
+    }
+} 
+
+@media (min-width: 426px) and (max-width: 768px){
+.reviews{
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 70px 80px 200px;
+}
+}

@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+.show-off {
+    display: grid;
+    grid-template-rows: 650px 780px 650px 780px 450px;
+}
+
+.about-us1 {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: whitesmoke;
+    animation: fadeInImg;
+    animation-duration: 4s;
+    transition-timing-function: linear;
+}
+
+@keyframes fadeInImg {
+    from {
+        transform: scale(0.25);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.bait-img1 {
+    grid-column: 1;
+    background-image: url("../images/pexels-photo-1279330.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-1 {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-1 h2 {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+}
+
+.text-1 h4 {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    font: normal normal normal 24px/1.4em "Baumans", script;
+}
+
+.text-1 p {
+    text-align: center;
+    padding: 0 50px;
+    line-height: 25px;
+}
+
+.text-1 button {
+    margin-top: 20px;
+    height: 50px;
+    width: 130px;
+    border: 2px solid black;
+    background: whitesmoke;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text-1 button:hover{
+    border-radius: 12px;
+    background: darkcyan;
+}
+.text-2 button:hover{
+    border-radius: 12px;
+    background: darkcyan;
+}
+.fruit {
+    grid-row: 2;
+    background-image: url("../images/pexels-photo-6888.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fruit h3 {
+    font-size: 50px;
+    color: whitesmoke;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+}
+
+.fruit h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 10px 0;
+    font-family: 'Oswald'
+}
+
+.fruit button {
+    margin-top: 20px;
+    height: 50px;
+    width: 130px;
+    border: 2px solid white;
+    background: rgba(1, 1, 1, 0.5);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fruit button:hover{
+    border-radius: 12px;
+    background: salmon;
+}
+.about-us2 {
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    animation: fadeInImg2;
+    animation-duration: 4s;
+    transition-timing-function: linear;
+}
+
+@keyframes fadeInImg2 {
+    from {
+        transform: scale(0.25);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.bait-img2 {
+    grid-column: 2;
+    grid-row: 1/2;
+    background-image: url("../images/bait.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-2 {
+    grid-column: 1;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+}
+
+.text-2 p {
+    text-align: center;
+    padding: 0 50px;
+    line-height: 25px;
+}
+
+.text-2 h2 {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+}
+
+.text-2 h4 {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    font: normal normal normal 24px/1.4em "Baumans", script;
+}
+
+.text-2 button {
+    margin-top: 20px;
+    height: 50px;
+    width: 130px;
+    border: 2px solid black;
+    background: whitesmoke;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fruit2 {
+    grid-row: 4;
+    background-image: url("../images/pexels-photo-1095550.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fruit2 h3 {
+    font-size: 50px;
+    color: black;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+}
+
+.fruit2 h1 {
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 10px 0;
+    font-family: 'Oswald'
+}
+
+.fruit2 button {
+    margin-top: 20px;
+    height: 50px;
+    width: 130px;
+    border: 2px solid white;
+    background: rgba(1, 1, 1, 0.5);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fruit2 button:hover{
+    border-radius: 12px;
+    background: salmon;
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+   .show-off{
+     grid-template-rows: 650px 780px 650px 780px 350px;
+   }
+   .brands-logo{
+       height: 70px;
+   }
+   .insta-img{
+       width: 50%;
+       height: 30px;
+   }
+}

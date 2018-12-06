@@ -1,0 +1,60 @@
+.leave-a-message{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: 50px 0;
+}
+.leave-a-message-inside{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: whitesmoke;
+}
+.form6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    width: 45%;
+}
+.form6 h2{
+    background: rgba(2,3,2,0.1);
+    color: black;   
+    border: none;
+}
+.form6 input{
+    width: 300px;
+    font-size: 20px;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 1px dashed;
+}
+.form6 textarea{
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+.button-request{
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+.button-request button{
+    width: 60%;
+    margin: 20px 0;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    background: #fe6748;
+    color:blanchedalmond;
+}
+.calendar{
+    width: 45%;
+    font-size: 23px;
+}
+.calendar button{
+    font-size: 23px;
+}

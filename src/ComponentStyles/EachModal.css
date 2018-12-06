@@ -1,0 +1,38 @@
+.related-imgs {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.related-recipes{
+    margin: 10px 0;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px black;
+    animation: fadeInImg10;
+    animation-duration: 2s;
+    transition-timing-function: linear;
+}
+.related-recipes:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@keyframes fadeInImg10{
+    from {
+        transform: scale(0.25);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.related-recipes h4 {
+    margin: 0;
+    font-size: 20px;
+    background: rgba(144, 238, 144, 0.6);
+    color: black;
+}

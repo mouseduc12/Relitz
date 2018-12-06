@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "NetflixSans";
+    src: url('../fonts/NetflixSans.woff2')
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "NetflixSans";
+}
+.nav{
+    display: flex;
+    color: rgba(255,255,255,1);
+    width: 100%;
+    z-index: 0.5;
+}
+
+.nav h1{
+    width: 40%;
+    padding: 0;
+    margin: 10px 0 0 0 ;
+    text-align: center;
+    color: rgb(100,149,237);
+}
+
+.nav-menus{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    justify-content: center;
+}
+.nav-menus li{
+    padding: 0;
+    margin: 0 30px 0 20px;
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+    .nav-menus li{
+        font-size: 15px;    
+    }
+    .nav{
+        width: 100%;
+    }
+}

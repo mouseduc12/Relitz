@@ -1,0 +1,367 @@
+.calories {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/cream.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    background-attachment: fixed;
+}
+
+.calculation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculation .form2 {
+    margin: 50px 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 500px rgba(1, 1, 1, 0.4);
+    border-radius: 12px;
+}
+
+.form2 div {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.form2 div>.newInput {
+    width: 300px;
+    font-size: 20px;
+    margin-left: 25px;
+    border-radius: 7px;
+}
+
+.form2 div:nth-child(4) {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.options {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div>.age2 {
+    font-size: 25px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+.form2 select {
+    width: 50%;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+.form2 button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+
+.calculation #clear-form {
+    display: none;
+}
+
+.analytic {
+    width: 80%;
+    margin: 30px 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background: whitesmoke;
+    border-radius: 12px;
+    animation: popover;
+    animation-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+@keyframes popover{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.clear-board{
+    display: none;
+}
+.analytic .firstBar {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.firstBar h2 {
+    text-align: center;
+}
+
+.firstBar .bar1 {
+    width: 80%;
+    background-color: cyan;
+    height: 30%;
+    border-radius: 12px;
+    animation: bar1;
+    animation-duration: 7s;
+    transition-timing-function: ease-in-out
+}
+
+@keyframes bar1 {
+    from {
+        width: 0
+    }
+    to {
+       width: 80%
+    }
+}
+
+.firstBar .bar2 {
+    width: 65%;
+    background-color: cyan;
+    height: 30%;
+    border-radius: 12px;
+    animation: bar2;
+    animation-duration: 5s;
+    transition-timing-function: ease-in-out
+}
+
+@keyframes bar2 {
+    from {
+        width: 0
+    }
+    to {
+       width: 65%
+    }
+}
+
+.firstBar .bar3 {
+    width: 50%;
+    background-color: #fe6748;
+    height: 30%;
+    border-radius: 12px;
+    animation: bar3;
+    animation-duration: 4s;
+    transition-timing-function: ease-in-out
+}
+
+@keyframes bar3 {
+    from {
+        width: 0
+    }
+    to {
+       width: 50%
+    }
+}
+
+
+.firstBar .mainh2 {
+    color: #fe6748
+}
+
+.firstBar .bar4 {
+    width: 35%;
+    background-color: red;
+    height: 30%;
+    border-radius: 12px;
+    animation: bar4;
+    animation-duration: 4s;
+    transition-timing-function: ease-in-out
+}
+
+@keyframes bar4 {
+    from {
+        width: 0
+    }
+    to {
+       width: 35%
+    }
+}
+
+.firstBar h4{
+    animation: textdaily;
+    animation-duration: 7s;
+    transition-timing-function: ease-in-out   
+}
+@keyframes textdaily{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.firstBar .bar5 {
+    width: 20%;
+    background-color: red;
+    height: 30%;
+    border-radius: 12px;
+    animation: bar5;
+    animation-duration: 4s;
+    transition-timing-function: ease-in-out
+}
+@keyframes bar5{
+    from {
+        width: 0
+    }
+    to {
+       width: 20%
+    }
+}
+
+.none {
+    display: none
+}
+
+.calories-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+#return-button {
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 0;
+    width: 250px;
+    border-radius: 12px;
+    background: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    animation: buttonAnimate;
+    animation-duration: 4s;
+    transition-timing-function: ease-in-out;
+}
+.weekly-mantain {
+    display: flex;
+    justify-content: center
+}
+
+.inside-mantain {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.display-none {
+    display: none;
+    animation: decrease1;
+    animation-duration: 2s;
+    transition-timing-function: linear
+}
+@keyframes decrease1{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes none {
+    from {
+        opacity: 100;
+        transform: scale(1)
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0)
+    }
+}
+
+.daily-foods-container {
+    display: flex;
+    justify-content: center;
+}
+
+.daily-foods-box {
+    width: 70%;
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.6);
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#recommended-button {
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 0;
+    width: 250px;
+    border-radius: 12px;
+    background: #fe6748;
+    border: none;
+    color: white;
+    cursor: pointer;
+    animation: buttonAnimate;
+    animation-duration: 4s;
+    transition-timing-function: linear
+}
+@keyframes buttonAnimate{
+    from{
+        opacity: 0;
+        transform: scale(0)
+    } to{
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+.target-calories {
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    padding: 0 10px;
+    height: 30px;
+}
+
+.daily-weekly {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form4 {
+    margin: 20px
+}
+
+.daily-weekly p {
+    font-size: 20px;
+}
+
+.form4-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.form4-button button {
+    width: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: lightseagreen;
+    border: none;
+    font-weight: bold;
+}

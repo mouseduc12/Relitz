@@ -1,0 +1,204 @@
+.modal {
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    animation: fadeOut;
+    animation-duration: 2s;
+    transition-timing-function: ease-out;
+    background-image: linear-gradient(whitesmoke, silver);
+    display: grid;
+    grid-template-rows: 0px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    z-index: 100;
+}
+
+@keyframes fadeOut {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.recipe-menus {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fan-likes {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.icon-imgs {
+    font-size: 25px;
+}
+
+.summarized-text {
+    grid-row: 3;
+    grid-column: 1/-1;
+    padding: 0 50px;
+    background-color: rgba(1, 1, 1, 0.1);
+    line-height: 30px;
+    font-family: "Baumans";
+    font-size: 20px;
+}
+
+.summarized-text a {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.wines {
+    grid-row: 4;
+    grid-column: 1/-1;
+    font-family: "Chakra Petch";
+    margin: 20px 0;
+}
+
+.wine-cover {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommed-wine-showoff {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px;
+}
+.recommed-wine-showoff h3{
+    text-align: center;
+    color: salmon;
+}
+
+.recommended-wine-img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.recommended-wines {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recommed-wine-infos a {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.recommed-wine-infos {
+    font-size: 20px;
+}
+
+.needs {
+    grid-row: 5;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
+}
+
+.needs .ingredients-notice {
+    background: white;
+    grid-row: 1;
+    border-bottom: 1px solid black;
+}
+
+.ingredients {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    border: none;
+    margin: 20px 20px 0 0;
+}
+
+.needs .equipments {
+    background: white;
+    grid-row: 2;
+}
+
+.cooking-instructions {
+    background: white;
+    grid-row: 5;
+    grid-column: 2;
+    padding: 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.price-chart {
+    grid-row: 6;
+    grid-column: 1/-1;
+}
+
+.nutrion {
+    grid-row: 7;
+    grid-column: 1/-1;
+}
+
+.recipe-menus h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: sienna;   
+}
+
+.modal-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 50%;
+}
+
+.ingredients-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.price {
+    background: white;
+    position: relative;
+    color: black;
+}
+
+.similar-recipes {
+    grid-row: 8;
+    grid-column: 1/-1;
+}
+
+.similar-recipes-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+.recommended-wines h3{
+    color: darkcyan;
+}
+.exit{
+    grid-column: 2;
+}
+.exit button{
+    font-size: 25px;
+    border-radius: 12px;
+}
