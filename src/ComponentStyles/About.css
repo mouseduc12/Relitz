@@ -241,14 +241,4 @@
 }
 
 @media (min-width: 426px) and (max-width: 768px){
-   .show-off{
-     grid-template-rows: 650px 780px 650px 780px 350px;
-   }
-   .brands-logo{
-       height: 70px;
-   }
-   .insta-img{
-       width: 50%;
-       height: 30px;
-   }
 }

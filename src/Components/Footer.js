@@ -22,10 +22,10 @@ const Footer = () => {
             </div>
             <div className="follow-us">
                 <div className="brands">
-                    <p><a href="#" id="fb"><FontAwesomeIcon icon={['fab', 'facebook']}/></a></p>
-                    <p><a href="#" id="insta"><FontAwesomeIcon icon= {['fab', 'instagram']}/></a></p>
-                    <p><a href="#" id="twitter"><FontAwesomeIcon icon= {['fab', 'twitter']} /></a></p>
-                    <p><a href="#" id="youtube"><FontAwesomeIcon icon= {['fab', 'youtube']} /></a></p>
+                    <p><a href="https://www.facebook.com/" id="fb"><FontAwesomeIcon icon={['fab', 'facebook']}/></a></p>
+                    <p><a href="https://www.instagram.com/" id="insta"><FontAwesomeIcon icon= {['fab', 'instagram']}/></a></p>
+                    <p><a href="https://www.twitter.com/" id="twitter"><FontAwesomeIcon icon= {['fab', 'twitter']} /></a></p>
+                    <p><a href="https://www.youtube.com/" id="youtube"><FontAwesomeIcon icon= {['fab', 'youtube']} /></a></p>
                 </div>
                 <div className="subscribe-box">
                 <h2>Subscribe To Our Newsletter:</h2>

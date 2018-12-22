@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "react-modal";
 import "../ComponentStyles/TheModal.css";
 import EachModal from "./EachModal"
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+import ReactHtmlParser from 'react-html-parser';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleDown, faHeartbeat, faFire, faGrinHearts, faMoneyBillWaveAlt, faTimes, faCheck, faStar } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'

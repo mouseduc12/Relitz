@@ -17,7 +17,6 @@ class Nav extends React.Component {
         window.addEventListener("scroll", this.handleScroll)
     }
     handleScroll = () =>{
-        console.log(window.scrollY)
         if(window.scrollY >= 10){
             this.setState({
                 fixed: "fixed",
