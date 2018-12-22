@@ -1,17 +1,19 @@
-.leave-a-message{
+.leave-a-message {
     display: flex;
     justify-content: center;
     height: 500px;
     margin: 50px 0;
 }
-.leave-a-message-inside{
+
+.leave-a-message-inside {
     width: 70%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     background: whitesmoke;
 }
-.form6{
+
+.form6 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,42 +21,168 @@
     font-size: 20px;
     width: 45%;
 }
-.form6 h2{
-    background: rgba(2,3,2,0.1);
-    color: black;   
+
+.form6 h2 {
+    background: rgba(2, 3, 2, 0.1);
+    color: black;
     border: none;
 }
-.form6 input{
+
+.form6 input {
     width: 300px;
     font-size: 20px;
     padding: 0 10px;
     border: none;
     border-bottom: 1px dashed;
 }
-.form6 textarea{
+
+.form6 textarea {
     width: 300px;
     height: 150px;
     font-size: 20px;
     padding: 0 10px;
 }
-.button-request{
+
+.button-request {
     width: 100%;
     display: flex;
     justify-content: center
 }
-.button-request button{
+
+.button-request button {
     width: 60%;
     margin: 20px 0;
     font-size: 20px;
     border-radius: 12px;
     border: none;
     background: #fe6748;
-    color:blanchedalmond;
+    color: blanchedalmond;
 }
-.calendar{
+
+.calendar {
     width: 45%;
     font-size: 23px;
 }
-.calendar button{
+
+.calendar button {
     font-size: 23px;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .calendar {
+        font-size: 18px
+    }
+
+    .calendar button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 561px) {
+    .leave-a-message{
+        height: auto;
+    }
+    .leave-a-message-inside {
+        width: 85%
+    }
+
+    .calendar {
+        font-size: 15px
+    }
+
+    .calendar button {
+        font-size: 15px;
+    }
+
+    .form6 h2 {
+        font-size: 20px
+    }
+
+    .form6 input {
+        font-size: 15px;
+        width: 100%
+    }
+
+    .form6 textarea {
+        font-size: 15px;
+        height: 100px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px) and (min-width: 425px) {
+    .leave-a-message{
+        height: auto;
+    }
+    .leave-a-message-inside {
+        width: 100%
+    }
+
+    .calendar {
+        font-size: 12px
+    }
+
+    .calendar button {
+        font-size: 10px;
+    }
+    .react-calendar__navigation button{
+        width: 20px
+    }
+    .form6 h2 {
+        font-size: 15px
+    }
+
+    .form6 input {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form6 textarea {
+        font-size: 12px;
+        height: 80px;
+        width: 100%;
+    }
+    .button-request button{
+        font-size: 15px
+    }
+}
+
+@media (max-width: 424px) {
+    .leave-a-message{
+        height: auto;
+    }
+    .leave-a-message-inside {
+        width: 100%
+    }
+
+    .calendar {
+        font-size: 10px
+    }
+
+    .calendar button {
+        font-size: 9px;
+    }
+    .react-calendar__navigation button{
+        width: 20px
+    }
+    .form6 h2 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .form6 input {
+        font-size: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form6 textarea {
+        font-size: 10px;
+        height: 80px;
+        width: 100%;
+    }
+    .button-request button{
+        font-size: 12px
+    }
 }

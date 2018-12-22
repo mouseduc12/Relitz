@@ -8,11 +8,11 @@ import Schedule from "./Schedule"
 import { Switch, Route } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCoffee, faBars } from '@fortawesome/free-solid-svg-icons'
 import axios from "axios"
 import "../ComponentStyles/App.css"
 var queryString = require('querystring')
-library.add(fab, faCheckSquare, faCoffee);
+library.add(fab, faCheckSquare, faCoffee, faBars);
 
 class App extends React.Component {
     constructor() {

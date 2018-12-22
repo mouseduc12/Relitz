@@ -14,7 +14,7 @@ class Nav extends React.Component {
         window.addEventListener('scroll', this.handleScroll)
     }
     componentWillUnmount(){
-        window.addEventListener("scroll", this.handleScroll)
+        window.removeEventListener("scroll", this.handleScroll)
     }
     handleScroll = () =>{
         if(window.scrollY >= 10){
