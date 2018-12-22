@@ -32,9 +32,8 @@
 }
 
 .form2 div>.newInput {
-    width: 300px;
+    width: 100%;
     font-size: 20px;
-    margin-left: 25px;
     border-radius: 7px;
 }
 
@@ -90,18 +89,21 @@ div>.age2 {
     animation-duration: 2s;
     transition-timing-function: ease-in-out;
 }
-@keyframes popover{
-    from{
+
+@keyframes popover {
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
 
-.clear-board{
+.clear-board {
     display: none;
 }
+
 .analytic .firstBar {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -127,8 +129,9 @@ div>.age2 {
     from {
         width: 0
     }
+
     to {
-       width: 80%
+        width: 80%
     }
 }
 
@@ -146,8 +149,9 @@ div>.age2 {
     from {
         width: 0
     }
+
     to {
-       width: 65%
+        width: 65%
     }
 }
 
@@ -165,8 +169,9 @@ div>.age2 {
     from {
         width: 0
     }
+
     to {
-       width: 50%
+        width: 50%
     }
 }
 
@@ -189,21 +194,24 @@ div>.age2 {
     from {
         width: 0
     }
+
     to {
-       width: 35%
+        width: 35%
     }
 }
 
-.firstBar h4{
+.firstBar h4 {
     animation: textdaily;
     animation-duration: 7s;
-    transition-timing-function: ease-in-out   
+    transition-timing-function: ease-in-out
 }
-@keyframes textdaily{
+
+@keyframes textdaily {
     from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
@@ -217,12 +225,14 @@ div>.age2 {
     animation-duration: 4s;
     transition-timing-function: ease-in-out
 }
-@keyframes bar5{
+
+@keyframes bar5 {
     from {
         width: 0
     }
+
     to {
-       width: 20%
+        width: 20%
     }
 }
 
@@ -250,6 +260,7 @@ div>.age2 {
     animation-duration: 4s;
     transition-timing-function: ease-in-out;
 }
+
 .weekly-mantain {
     display: flex;
     justify-content: center
@@ -270,11 +281,13 @@ div>.age2 {
     animation-duration: 2s;
     transition-timing-function: linear
 }
-@keyframes decrease1{
-    from{
+
+@keyframes decrease1 {
+    from {
         opacity: 1;
     }
-    to{
+
+    to {
         opacity: 0;
     }
 }
@@ -319,15 +332,19 @@ div>.age2 {
     animation-duration: 4s;
     transition-timing-function: linear
 }
-@keyframes buttonAnimate{
-    from{
+
+@keyframes buttonAnimate {
+    from {
         opacity: 0;
         transform: scale(0)
-    } to{
+    }
+
+    to {
         opacity: 1;
         transform: scale(1)
     }
 }
+
 .target-calories {
     font-size: 20px;
     border-radius: 5px;
@@ -364,4 +381,201 @@ div>.age2 {
     background-color: lightseagreen;
     border: none;
     font-weight: bold;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .calories-buttons {
+        width: 60%
+    }
+}
+
+@media (max-width: 768px) and (min-width: 561px) {
+    .form2 h2 {
+        font-size: 20px
+    }
+
+    .form2 div {
+        font-size: 18px
+    }
+
+    div>.age2 {
+        font-size: 15px;
+        width: 50px
+    }
+
+    .form2 select {
+        font-size: 15px
+    }
+
+    .form2 button {
+        font-size: 15px;
+        width: 125px
+    }
+
+    .calories-buttons {
+        width: 60%
+    }
+
+    #recommended-button {
+        width: 50%;
+        margin-right: 20px;
+        font-size: 15px;
+        height: 40px
+    }
+
+    #return-button {
+        width: 50%;
+        font-size: 15px;
+        height: 40px
+    }
+    .firstBar h2{
+        font-size: 18px
+    }
+    .firstBar h4{
+        font-size: 13px
+    }
+
+    .target-calories{
+        font-size: 17px;
+        margin-bottom: 10px
+    }
+}
+
+@media (max-width: 560px) and (min-width: 425px) {
+    .form2 h2 {
+        font-size: 15px
+    }
+
+    .form2 div {
+        font-size: 13px;
+    }
+
+    .form2 div>.newInput {
+        font-size: 15px;
+    }
+
+    div>.age2 {
+        font-size: 15px;
+        width: 50px
+    }
+
+    .form2 select {
+        font-size: 12px
+    }
+
+    .form2 button {
+        font-size: 13px;
+        width: 100px
+    }
+
+    .calories-buttons {
+        width: 60%
+    }
+
+    #recommended-button {
+        width: 50%;
+        margin-right: 20px;
+        font-size: 12px;
+        height: 30px
+    }
+
+    #return-button {
+        width: 50%;
+        font-size: 12px;
+        height: 30px
+    }
+    .firstBar h2{
+        font-size: 13px
+    }
+    .firstBar h4{
+        font-size: 11px
+    }
+
+    .target-calories{
+        font-size: 15px;
+        height: 25px;
+        width: 200px;
+        margin-bottom: 10px
+    }
+    .daily-weekly p{
+        font-size: 17px
+    }
+    .form4-button button{
+        font-size: 15px;
+        margin-top: 10px
+    }
+}
+
+@media (max-width: 424px) {
+    .calculation .form2 {
+        width: 80%;
+    }
+    .form2 h2 {
+        font-size: 12px
+    }
+
+    .form2 div {
+        font-size: 11px;
+        margin: 5px;
+    }
+
+    .form2 div>.newInput {
+        font-size: 11px;
+    }
+
+    div>.age2 {
+        font-size: 11px;
+        width: 50px
+    }
+
+    .form2 select {
+        font-size: 12px
+    }
+
+    .form2 button {
+        font-size: 11px;
+        width: 100px
+    }
+
+    .form2 div:nth-child(4) {
+        width: 100%
+    }
+    .analytic{
+        width: 100%
+    }
+    .calories-buttons{
+        width: 80%;
+    }
+    #recommended-button {
+        width: 50%;
+        margin-right: 20px;
+        font-size: 10px;
+        height: 30px
+    }
+
+    #return-button {
+        width: 50%;
+        font-size: 10px;
+        height: 30px
+    }
+    .firstBar h2{
+        font-size: 11px
+    }
+    .firstBar h4{
+        font-size: 10px
+    }
+
+    .target-calories{
+        font-size: 12px;
+        height: 20px;
+        width: 200px;
+        margin-bottom: 10px
+    }
+    .daily-weekly p{
+        font-size: 14px
+    }
+    .form4-button button{
+        font-size: 15px;
+        margin-top: 10px
+    }
 }
