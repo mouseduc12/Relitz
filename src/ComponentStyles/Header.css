@@ -1,29 +1,77 @@
-.header{
+.header {
     background-image: url("../images/sushis.jpeg");
-    box-shadow: inset 0 0 0 1000px rgba(1,1,1,0.4);
-    color:rgba(255,255,255,1);
+    box-shadow: inset 0 0 0 1000px rgba(1, 1, 1, 0.4);
+    color: rgba(255, 255, 255, 1);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 800px;
 }
-.header-theme{
+
+.header-theme {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.header-theme h1{
+
+.header-theme h1 {
     margin: 0 0 20px 0;
-    padding:0;
+    padding: 0;
     font-size: 60px;
-    color: rgb(240,230,140, 0.9);
+    color: rgb(240, 230, 140, 0.9);
 }
-.header-theme h2{
+
+.header-theme h2 {
     margin: 0;
     padding: 0;
     font-size: 35px;
     letter-spacing: 2px;
     opacity: 0.7;
+}
+
+
+
+@media (max-width: 768px) and (min-width: 561px) {
+    .header {
+        height: 600px;
+    }
+
+    .header-theme h1 {
+        font-size: 45px
+    }
+
+    .header-theme h2 {
+        font-size: 30px
+    }
+}
+
+@media (max-width: 560px) and (min-width: 425px) {
+    .header {
+        height: 500px;
+    }
+
+    .header-theme h1 {
+        font-size: 35px
+    }
+
+    .header-theme h2 {
+        font-size: 25px
+    }
+
+}
+
+@media (max-width: 424px) {
+    .header {
+        height: 450px;
+    }
+
+    .header-theme h1 {
+        font-size: 25px
+    }
+
+    .header-theme h2 {
+        font-size: 15px
+    }
 }
