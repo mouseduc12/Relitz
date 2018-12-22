@@ -73,14 +73,17 @@
     font-size: 15px;
     font-weight: bold;
 }
-.text-1 button:hover{
+
+.text-1 button:hover {
     border-radius: 12px;
     background: darkcyan;
 }
-.text-2 button:hover{
+
+.text-2 button:hover {
     border-radius: 12px;
     background: darkcyan;
 }
+
 .fruit {
     grid-row: 2;
     background-image: url("../images/pexels-photo-6888.jpeg");
@@ -122,10 +125,12 @@
     font-size: 15px;
     font-weight: bold;
 }
-.fruit button:hover{
+
+.fruit button:hover {
     border-radius: 12px;
     background: salmon;
 }
+
 .about-us2 {
     grid-row: 3;
     display: grid;
@@ -235,10 +240,220 @@
     font-size: 15px;
     font-weight: bold;
 }
-.fruit2 button:hover{
+
+.fruit2 button:hover {
     border-radius: 12px;
     background: salmon;
 }
 
-@media (min-width: 426px) and (max-width: 768px){
+@media (max-width: 768px) and (min-width: 561px) {
+    .show-off {
+        grid-template-rows: 550px 680px 550px 680px auto
+    }
+
+    .text-1 h2 {
+        font-size: 30px
+    }
+
+    .text-1 h4 {
+        font-size: 20px;
+    }
+
+    .text-1 p {
+        font-size: 13px;
+    }
+
+    .text-1 button {
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .text-2 h2 {
+        font-size: 30px
+    }
+
+    .text-2 h4 {
+        font-size: 20px;
+    }
+
+    .text-2 p {
+        font-size: 13px;
+    }
+
+    .text-2 button {
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .fruit h3 {
+        font-size: 40px
+    }
+
+    .fruit h1 {
+        font-size: 60px
+    }
+
+    .fruit button {
+        height: 35px;
+        font-size: 13px
+    }
+
+    .fruit2 h3 {
+        font-size: 40px
+    }
+
+    .fruit2 h1 {
+        font-size: 60px
+    }
+
+    .fruit2 button {
+        height: 35px;
+        font-size: 13px
+    }
+}
+
+@media (max-width: 560px) and (min-width: 425px) {
+    .show-off {
+        grid-template-rows: 430px 550px 430px 550px auto
+    }
+
+    .text-1 h2 {
+        font-size: 23px;
+    }
+
+    .text-1 h4 {
+        font-size: 17px;
+    }
+
+    .text-1 p {
+        font-size: 11px;
+        padding: 0 20px;
+        line-height: 20px
+    }
+
+    .text-1 button {
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .text-2 h2 {
+        font-size: 23px;
+    }
+
+    .text-2 h4 {
+        font-size: 17px;
+    }
+
+    .text-2 p {
+        font-size: 11px;
+        padding: 0 20px;
+        line-height: 20px
+    }
+
+    .text-2 button {
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .fruit h3 {
+        font-size: 35px
+    }
+
+    .fruit h1 {
+        font-size: 45px
+    }
+
+    .fruit button {
+        height: 30px;
+        font-size: 13px
+    }
+
+    .fruit2 h3 {
+        font-size: 35px
+    }
+
+    .fruit2 h1 {
+        font-size: 45px
+    }
+
+    .fruit2 button {
+        height: 30px;
+        font-size: 13px
+    }
+}
+
+@media (max-width: 424px) {
+    .show-off {
+        grid-template-rows: 300px 380px 300px 380px auto
+    }
+
+    .text-1 h2 {
+        font-size: 18px;
+    }
+
+    .text-1 h4 {
+        font-size: 14px;
+    }
+
+    .text-1 p {
+        font-size: 8px;
+        padding: 0 10px;
+        line-height: 13px
+    }
+
+    .text-1 button {
+        height: 20px;
+        font-size: 10px;
+        width: 100px
+    }
+
+    .text-2 h2 {
+        font-size: 18px;
+    }
+
+    .text-2 h4 {
+        font-size: 14px;
+    }
+
+    .text-2 p {
+        font-size: 8px;
+        padding: 0 10px;
+        line-height: 13px
+    }
+
+    .text-2 button {
+        height: 20px;
+        font-size: 10px;
+        width: 100px
+    }
+
+    .fruit h3 {
+        font-size: 24px
+    }
+
+    .fruit h1 {
+        font-size: 30px;
+        letter-spacing: 1px
+    }
+
+    .fruit button {
+        height: 30px;
+        font-size: 13px;
+        width: 110px
+    }
+
+    .fruit2 h3 {
+        font-size: 24px
+    }
+
+    .fruit2 h1 {
+        font-size: 30px;
+        letter-spacing: 1px
+    }
+
+    .fruit2 button {
+        height: 30px;
+        font-size: 13px;
+        width: 110px
+    }
 }

@@ -20,7 +20,7 @@ class Nav extends React.Component {
         if(window.scrollY >= 10){
             this.setState({
                 fixed: "fixed",
-                background: "rgba(1,1,1,0.7)"
+                background: "rgba(1,1,1,1)"
             })
         } else {
             this.setState({
@@ -31,7 +31,7 @@ class Nav extends React.Component {
     }
     render() {
         return (
-            <div className="nav" style={{position: this.state.fixed, background: this.state.background}}>
+            <div className="nav" style={{position: this.state.fixed, background: this.state.background, zIndex: 100}}>
                 <h1><Link to="/" style={{ textDecoration: "none", color: "darkcyan" }}>Relitz</Link></h1>
                 <ul className="nav-menus">
                     <li><Link to="/" style={{ textDecoration: "none", color: "white" }}>Home</Link></li>

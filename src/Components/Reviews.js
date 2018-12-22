@@ -2,51 +2,51 @@ import React from "react"
 import "../ComponentStyles/Reviews.css"
 
 class Reviews extends React.Component {
-    constructor(){
+    constructor() {
         super()
         this.state = {
-            enter:"",
+            enter: "",
             enter2: "",
             enter3: "",
             enter4: ""
         }
     }
-    handleEnter = () =>{
+    handleEnter = () => {
         this.setState({
             enter: "visible",
         })
     }
-    handleEnter1 = () =>{
+    handleEnter1 = () => {
         this.setState({
             enter2: "visible2"
         })
     }
-    handleLeave = () =>{
+    handleLeave = () => {
         this.setState({
             enter: "",
         })
     }
-    handleLeave1 = () =>{
+    handleLeave1 = () => {
         this.setState({
             enter2: ""
         })
     }
-    handleEnter2 = () =>{
+    handleEnter2 = () => {
         this.setState({
             enter3: "visible3",
         })
     }
-    handleLeave2 = () =>{
+    handleLeave2 = () => {
         this.setState({
             enter3: ""
         })
     }
-    handleEnter3 = () =>{
+    handleEnter3 = () => {
         this.setState({
             enter4: "visible4",
         })
     }
-    handleLeave3 = () =>{
+    handleLeave3 = () => {
         this.setState({
             enter4: ""
         })
@@ -74,20 +74,22 @@ class Reviews extends React.Component {
                         <p>📷 A beautiful collection of curated stock photos<span role="img">🎁 </span>Totally free for personal & commercial use<span role="img">💻 </span>Upload your photos to Pexels.com to be featured</p>
                     </div>
                 </div>
-                <div className="click-bait-image1"  onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave}>
-                <button className={this.state.enter}><a href="https://www.instagram.com/explore/locations/1030860450/v-school?hl=en" target="_blank" rel="noopener noreferrer">Learn More</a></button>
-            </div>
-            <div className="click-bait-image2" onMouseEnter={this.handleEnter1} onMouseLeave={this.handleLeave1}>
-                <button className={this.state.enter2}><a href="https://www.instagram.com/explore/locations/1030860450/v-school?hl=en" target="_blank" rel="noopener noreferrer">Learn More</a></button>
-            </div>
-            <div className="click-bait-image3" onMouseEnter={this.handleEnter2} onMouseLeave={this.handleLeave2}>
-                <button className={this.state.enter3}><a href="https://www.instagram.com/explore/locations/1030860450/v-school?hl=en" target="_blank" rel="noopener noreferrer">Learn More</a></button>
-            </div> 
-            <div className="click-bait-image4" onMouseEnter={this.handleEnter3} onMouseLeave={this.handleLeave3}>
-                <button className={this.state.enter4}><a href="https://www.instagram.com/explore/locations/1030860450/v-school?hl=en" target="_blank" rel="noopener noreferrer">Learn More</a></button>
-            </div>
-        </div >
-    )
+                <div className = "click-bait-container">
+                    <div className="click-bait-image1" onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave}>
+                        <button className={this.state.enter}><a href="https://www.instagram.com/explore/locations/1030860450/v-school?hl=en" target="_blank" rel="noopener noreferrer">Learn More</a></button>
+                    </div>
+                    <div className="click-bait-image2" onMouseEnter={this.handleEnter1} onMouseLeave={this.handleLeave1}>
+                        <button className={this.state.enter2}><a href="https://www.instagram.com/explore/locations/1030860450/v-school?hl=en" target="_blank" rel="noopener noreferrer">Learn More</a></button>
+                    </div>
+                    <div className="click-bait-image3" onMouseEnter={this.handleEnter2} onMouseLeave={this.handleLeave2}>
+                        <button className={this.state.enter3}><a href="https://www.instagram.com/explore/locations/1030860450/v-school?hl=en" target="_blank" rel="noopener noreferrer">Learn More</a></button>
+                    </div>
+                    <div className="click-bait-image4" onMouseEnter={this.handleEnter3} onMouseLeave={this.handleLeave3}>
+                        <button className={this.state.enter4}><a href="https://www.instagram.com/explore/locations/1030860450/v-school?hl=en" target="_blank" rel="noopener noreferrer">Learn More</a></button>
+                    </div>
+                </div>
+            </div >
+        )
     }
 }
 
