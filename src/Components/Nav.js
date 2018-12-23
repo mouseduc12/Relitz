@@ -31,7 +31,7 @@ class Nav extends React.Component {
     }
     render() {
         return (
-            <div className="nav" style={{position: this.state.fixed, background: this.state.background, zIndex: 50}}>
+            <div className="nav" style={{position: this.state.fixed, background: this.state.background, zIndex: 0}}>
                 <h1><Link to="/" style={{ textDecoration: "none", color: "darkcyan" }}>Relitz</Link></h1>
                 <ul className="nav-menus">
                     <li><Link to="/" style={{ textDecoration: "none", color: "white" }}>Home</Link></li>

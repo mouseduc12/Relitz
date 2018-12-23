@@ -36,3 +36,27 @@
     background: rgba(144, 238, 144, 0.6);
     color: black;
 }
+
+@media (max-width: 1024px) and (min-width: 769px){
+
+}
+@media (max-width: 768px) and (min-width: 561px){
+   
+   
+}
+@media (max-width: 560px) and (min-width: 425px){
+    .related-imgs{
+        width: 100%
+    }
+    .related-recipes h4{
+        font-size: 15px
+    }
+}
+@media (max-width: 424px){
+    .related-imgs{
+        width: 100%
+    }
+    .related-recipes h4{
+        font-size: 15px
+    }
+}
