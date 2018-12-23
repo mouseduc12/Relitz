@@ -3,7 +3,6 @@ import "../ComponentStyles/WeeklyRecipe.css"
 import LazyLoad from "react-lazyload";
 
 const WeeklyRecipe = (props) => {
-    console.log(props.id)
     let mealType = ""
     if(props.slot === 1){
         mealType = "Breakfast"
