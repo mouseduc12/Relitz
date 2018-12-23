@@ -44,3 +44,49 @@
 .daily-recipe h3{
     margin: 0;
 }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+   
+}
+
+@media (max-width: 768px) and (min-width: 561px) {
+    .daily-foods span{
+        font-size: 15px
+    }
+    .daily-recipe h3{
+        font-size: 15px
+    }
+    .daily-recipe h4{
+        font-size: 13px
+    }
+}
+
+@media (max-width: 560px) and (min-width: 425px) {
+    .daily-foods span{
+        font-size: 15px
+    }
+    .daily-recipe h3{
+        font-size: 15px
+    }
+    .daily-recipe h4{
+        font-size: 13px
+    }
+    .daily-recipe{
+        grid-column: 1/-1
+    }
+}
+
+@media (max-width: 424px) {
+    .daily-foods span{
+        font-size: 15px
+    }
+    .daily-recipe h3{
+        font-size: 15px
+    }
+    .daily-recipe h4{
+        font-size: 13px
+    }
+    .daily-recipe{
+        grid-column: 1/-1
+    }
+}

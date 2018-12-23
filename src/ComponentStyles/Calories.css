@@ -387,6 +387,9 @@ div>.age2 {
     .calories-buttons {
         width: 60%
     }
+    .daily-foods-box{
+        width: 100%
+    }
 }
 
 @media (max-width: 768px) and (min-width: 561px) {
@@ -438,6 +441,15 @@ div>.age2 {
     .target-calories{
         font-size: 17px;
         margin-bottom: 10px
+    }
+    .daily-foods-box{
+        width: 100%
+    }
+    .inside-mantain{
+        width: 100%
+    }
+    .daily-foods span{
+        font-size: 15px
     }
 }
 
@@ -503,6 +515,16 @@ div>.age2 {
     .form4-button button{
         font-size: 15px;
         margin-top: 10px
+    }
+    .daily-foods-box{
+        width: 75%
+    }
+    .inside-mantain{
+        width: 75%
+    }
+    .daily-foods span{
+        font-size: 15px;
+        text-align: center;
     }
 }
 
@@ -577,5 +599,15 @@ div>.age2 {
     .form4-button button{
         font-size: 15px;
         margin-top: 10px
+    }
+    .daily-foods-box{
+        width: 100%
+    }
+    .daily-foods span{
+        font-size: 15px;
+        text-align: center;
+    }
+    .inside-mantain{
+        width: 100%
     }
 }

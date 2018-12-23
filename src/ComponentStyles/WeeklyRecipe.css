@@ -1,14 +1,16 @@
-.weekly-images{
+.weekly-images {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 250px;
-}   
-.weekly-images:hover{
-    box-shadow: inset 0 0 0 500px rgba(1,1,1,0.5);
 }
-.weekly-foods{
+
+.weekly-images:hover {
+    box-shadow: inset 0 0 0 500px rgba(1, 1, 1, 0.5);
+}
+
+.weekly-foods {
     margin: 20px 0;
     width: 32%;
     display: flex;
@@ -19,22 +21,26 @@
     animation-duration: 3s;
     transition-timing-function: ease-out;
 }
-.weekly-foods:hover{
-    box-shadow: inset 0 0 0 500px rgba(1,1,1,0.5);
+
+.weekly-foods:hover {
+    box-shadow: inset 0 0 0 500px rgba(1, 1, 1, 0.5);
     cursor: pointer;
 }
-@keyframes fadeInImg5{
-    from{
+
+@keyframes fadeInImg5 {
+    from {
         opacity: 0;
-    } to {
+    }
+
+    to {
         opacity: 1;
     }
 }
 
-.weekly-foods h4{
+.weekly-foods h4 {
     margin: 0;
     font-size: 15px;
-    background: rgba(144,238,144 ,0.6);
+    background: rgba(144, 238, 144, 0.6);
     color: black;
 }
 
@@ -42,3 +48,38 @@
     margin: 0;
 }
 
+
+
+@media (max-width: 768px) and (min-width: 561px) {
+    .weekly-foods h3 {
+        font-size: 15px
+    }
+    .weekly-foods h4 {
+        font-size: 13px
+    }
+}
+
+@media (max-width: 560px) and (min-width: 425px) {
+    .weekly-foods h3 {
+        font-size: 15px
+    }
+    .weekly-foods h4 {
+        font-size: 13px
+    }
+    .weekly-foods{
+      width: 100%;
+    }
+}
+
+@media (max-width: 424px) {
+    .weekly-foods h3 {
+        font-size: 15px
+    }
+
+    .weekly-foods h4 {
+        font-size: 13px
+    }
+    .weekly-foods{
+        width: 100%;
+      }
+}
