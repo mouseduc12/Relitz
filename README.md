@@ -2,7 +2,7 @@ Updated: Finished off the responsive... Yayyy!!!
 
 Second Personal API website:
 Relitz is a food service website that allows user to help and track calories, search recipe, get instruction, price, etc...
-Achived: Pass multiple states to different children, understand React Router and how importance of React Context, render.props, high oreder components and mostly how should we mange state effectively.
+Achived: Pass multiple states to different children, understand React Router and the importance of React Context, render.props, high oreder components and mostly how should we mange state effectively.
 
 Experience few bugs: Modal pop up twice and the website is not responsive
 Will be updated soon.
